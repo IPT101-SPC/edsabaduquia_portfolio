@@ -129,33 +129,9 @@ nav ul li {
 }
 
 
-
 /*--------------------------------------------------------------
 # Hobbies
 --------------------------------------------------------------*/
-#hobbies, #hobbies-blog {
-  height: auto;
-  width: 80%;
-  background: white;
-  padding-bottom: 60px;
-  position: relative;
-}
-
-#hobbies-blog {
-  background: #fff;
-  padding-bottom: 30px;
-}
-
-#hobbies .hobbies-block {
-  display: inline-block;
-  height: auto;
-  width: 100%;
-}
-
-#hobbies .hobbies-block .hobbies-info {
-  position: relative;
-}
-
 .hobbies-block .hobbies-info img {
   max-width: 100%;
 }
@@ -165,94 +141,9 @@ nav ul li {
   position: relative;
 }
 
-.hobbies-block .hobbies-info .hobbies-txt h4 a {
-  display: block;
-  font-size: 19px;
-  line-height: 24px;
-  margin: 0 0 13px 0;
-  font-weight: 500;
-  color: #292929;
-  transition: all 0.5s ease-in-out 0s;
-}
-
-.hobbies-block .hobbies-info .hobbies-txt h4 a:hover {
-  color: #b8a07e;
-  transition: all 0.5s ease-in-out 0s;
-}
-
-.hobbies-block .hobbies-info .hobbies-txt p {
-  margin: 0;
-  font-size: 14px;
-  line-height: 24px;
-}
-
-
-
-
 /*--------------------------------------------------------------
 # Aboutme
 --------------------------------------------------------------*/
-.Aboutme .Aboutme-item {
-  box-sizing: content-box;
-  text-align: center;
-  min-height: 320px;
-}
-.Aboutme .Aboutme-item .Aboutme-img {
-  width: 90px;
-  border-radius: 50%;
-  margin: 0 auto;
-}
-.Aboutme .Aboutme-item h3 {
-  font-size: 18px;
-  font-weight: bold;
-  margin: 10px 0 5px 0;
-  color: #111;
-}
-.Aboutme .Aboutme-item h4 {
-  font-size: 14px;
-  color: #999;
-  margin: 0;
-}
-.Aboutme .Aboutme-item .quote-icon-left, .Aboutme .Aboutme-item .quote-icon-right {
-  color: #c3e8fa;
-  font-size: 26px;
-}
-.Aboutme .Aboutme-item .quote-icon-left {
-  display: inline-block;
-  left: -5px;
-  position: relative;
-}
-.Aboutme .Aboutme-item .quote-icon-right {
-  display: inline-block;
-  right: -5px;
-  position: relative;
-  top: 10px;
-}
-.Aboutme .Aboutme-item p {
-  font-style: italic;
-  margin: 0 15px 15px 15px;
-  padding: 20px;
-  background: #fff;
-  position: relative;
-  margin-bottom: 35px;
-  border-radius: 6px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
-.Aboutme .Aboutme-item p::after {
-  content: "";
-  width: 0;
-  height: 0;
-  border-top: 20px solid #fff;
-  border-right: 20px solid transparent;
-  border-left: 20px solid transparent;
-  position: absolute;
-  bottom: -20px;
-  left: calc(50% - 20px);
-}
-.Aboutme .owl-nav, .Aboutme .owl-dots {
-  margin-top: 5px;
-  text-align: center;
-}
 .Aboutme .owl-dot {
   display: inline-block;
   margin: 0 5px;
